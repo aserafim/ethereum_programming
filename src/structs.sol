@@ -33,7 +33,7 @@ contract Academy{
     function changeState(State _state) public{
         academyState = _state;
     }
-
+    // Função get
     function getState() public view returns(State){
         return academyState;
     }
