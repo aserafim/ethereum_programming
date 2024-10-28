@@ -7,33 +7,14 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "new_value",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "_value",
-						"type": "int256"
-					}
-				],
-				"name": "setValue",
+				"name": "f1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "terra",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -46,12 +27,38 @@
 			},
 			{
 				"inputs": [],
-				"name": "value",
+				"name": "sold",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "bool",
 						"name": "",
-						"type": "int256"
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "y",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
 					}
 				],
 				"stateMutability": "view",
@@ -71,7 +78,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"src/mycontract.sol": "Property"
+			"src/contract_3.sol": "Property"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +92,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/mycontract.sol": {
-			"keccak256": "0x139cdf089efbed978511f26bf56d7ef169366782989cd58ba5791b9fc3a2542a",
+		"src/contract_3.sol": {
+			"keccak256": "0xc3658e0b5cd483cb42289128c25b130808e6bcd12c2a33ef9ba19a55fccb0380",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ea47f8dedde0bb2c7936888a7389a0eee95364bd6525f357050e6d3bc6e60e01",
-				"dweb:/ipfs/QmWsSATuKkGxjZgCGu8L9Y5wfPePMAgWrmZYMxQ3MGATJL"
+				"bzz-raw://c2c80c49d546481a4a49683228a1cc446c3a4567345beb7eb9c4c9cdec68a3c4",
+				"dweb:/ipfs/QmRSahqLqVwSXbbpMXMDg4Gknr5AmfKdUUKiD3mGCZEVJv"
 			]
 		}
 	},

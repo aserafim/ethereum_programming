@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "cities",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f_memory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f_storage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/storage_vs_memory.sol": "A"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/storage_vs_memory.sol": {
+			"keccak256": "0x6ea9192e21a22d92b4c168160d14c0fb94016b7b241834e278e55cf827f4a83e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a03a1f28ae8097fb1f38ca82fe5960d4369f74dad6e0b061d9583d14abe2db7c",
+				"dweb:/ipfs/QmX2Ydud3EVFNPHHoDaXxgfG8E7Wz6A5p7qJe84Ue9FRXL"
+			]
+		}
+	},
+	"version": 1
+}
