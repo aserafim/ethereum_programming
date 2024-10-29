@@ -16,5 +16,5 @@ contract A{
         // string s2; -> error
         s1[0] = "Barueri";
     }
-
+    //tese
 }
