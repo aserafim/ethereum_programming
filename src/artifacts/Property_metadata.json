@@ -6,15 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "f1",
-				"outputs": [],
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_price",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_location",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "getPrice",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -27,12 +36,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "sold",
+				"name": "location",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "string",
 						"name": "",
-						"type": "bool"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -40,12 +49,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "x",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "address",
 						"name": "",
-						"type": "uint8"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -53,15 +62,28 @@
 			},
 			{
 				"inputs": [],
-				"name": "y",
+				"name": "price",
 				"outputs": [
 					{
-						"internalType": "int8",
+						"internalType": "int256",
 						"name": "",
-						"type": "int8"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_price",
+						"type": "int256"
+					}
+				],
+				"name": "setPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -78,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"src/contract_3.sol": "Property"
+			"src/contractTwo.sol": "Property"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -92,12 +114,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/contract_3.sol": {
-			"keccak256": "0xc3658e0b5cd483cb42289128c25b130808e6bcd12c2a33ef9ba19a55fccb0380",
+		"src/contractTwo.sol": {
+			"keccak256": "0xef5bddf494ab714f26e6c4d139c262cb5e71124a4c998c41d57c5acc3d7a7e65",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c2c80c49d546481a4a49683228a1cc446c3a4567345beb7eb9c4c9cdec68a3c4",
-				"dweb:/ipfs/QmRSahqLqVwSXbbpMXMDg4Gknr5AmfKdUUKiD3mGCZEVJv"
+				"bzz-raw://0c78806fe61d94a564ed5ebe18be4ecd0d4aa40921c5d68cb279a43d5bf711a3",
+				"dweb:/ipfs/QmQnYgFLunqM8x9jwT8xPfAm2RcoRxMPo7paX4LQZjTvPc"
 			]
 		}
 	},

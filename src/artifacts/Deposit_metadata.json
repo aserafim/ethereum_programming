@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
 			},
@@ -17,6 +22,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -86,11 +104,11 @@
 	},
 	"sources": {
 		"src/contract_address_balance.sol": {
-			"keccak256": "0xc347cbd79f2e250f92086fd8398a7ed97d952131b4b2d3d25975199e64850edc",
+			"keccak256": "0x34beedb6d705c6dbe42001bad20653575194458758cf9bdf463b0cc4026cea27",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://43070f596d74bb563ac93789051f79d3adf401e9882bd88f88969f922f1de8f9",
-				"dweb:/ipfs/QmcL7cos2tGC1X5XmoEUU6WXNvmSGi3MyiXBchCC8RdpoA"
+				"bzz-raw://42a240e7da7d59565a4c3b78cd339a222807be7549425a33300abf2cf3538a3a",
+				"dweb:/ipfs/QmUQyHx7MQHDbpKk6PHAhJpJ68kCKjS83BWK2mddeqe5VK"
 			]
 		}
 	},
